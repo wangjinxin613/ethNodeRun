@@ -1,0 +1,73 @@
+nohup: appending output to ‘nohup.out’
+WARN [02-10|22:06:01.838] Sanitizing cache to Go's GC limits       provided=1024 updated=330
+INFO [02-10|22:06:01.840] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-10|22:06:01.840] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-10|22:06:01.842] Starting peer-to-peer node               instance=Geth/test1/v1.9.9-stable-01744997/linux-amd64/go1.13.5
+INFO [02-10|22:06:01.842] Allocated trie memory caches             clean=82.00MiB dirty=82.00MiB
+INFO [02-10|22:06:01.842] Allocated cache and file handles         database=/eth/test1/data/test1/geth/chaindata cache=165.00MiB handles=50001
+INFO [02-10|22:06:01.862] Opened ancient database                  database=/eth/test1/data/test1/geth/chaindata/ancient
+INFO [02-10|22:06:01.862] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Engine: ethash}"
+INFO [02-10|22:06:01.863] Disk storage enabled for ethash caches   dir=/eth/test1/data/test1/geth/ethash count=3
+INFO [02-10|22:06:01.863] Disk storage enabled for ethash DAGs     dir=/root/.ethash                     count=2
+INFO [02-10|22:06:01.863] Initialising Ethereum protocol           versions="[64 63]" network=613 dbversion=<nil>
+WARN [02-10|22:06:01.863] Upgrade blockchain database version      from=<nil> to=7
+INFO [02-10|22:06:01.864] Loaded most recent local header          number=0 hash=1046ef…01d4fa td=2 age=2mo2w4h
+INFO [02-10|22:06:01.864] Loaded most recent local full block      number=0 hash=1046ef…01d4fa td=2 age=2mo2w4h
+INFO [02-10|22:06:01.864] Loaded most recent local fast block      number=0 hash=1046ef…01d4fa td=2 age=2mo2w4h
+INFO [02-10|22:06:01.864] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-10|22:06:01.869] Allocated fast sync bloom                size=164.00MiB
+INFO [02-10|22:06:01.871] Initialized fast sync bloom              items=1 errorrate=0.000 elapsed=89.831µs
+Fatal: Error starting protocol stack: listen tcp :30303: bind: address already in use
+nohup: appending output to ‘nohup.out’
+WARN [02-10|22:26:55.616] Sanitizing cache to Go's GC limits       provided=1024 updated=330
+INFO [02-10|22:26:55.618] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-10|22:26:55.618] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-10|22:26:55.619] Starting peer-to-peer node               instance=Geth/test1/v1.9.9-stable-01744997/linux-amd64/go1.13.5
+INFO [02-10|22:26:55.619] Allocated trie memory caches             clean=82.00MiB dirty=82.00MiB
+INFO [02-10|22:26:55.619] Allocated cache and file handles         database=/eth/test1/data/test1/geth/chaindata cache=165.00MiB handles=50001
+INFO [02-10|22:26:55.639] Opened ancient database                  database=/eth/test1/data/test1/geth/chaindata/ancient
+INFO [02-10|22:26:55.640] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Engine: ethash}"
+INFO [02-10|22:26:55.640] Disk storage enabled for ethash caches   dir=/eth/test1/data/test1/geth/ethash count=3
+INFO [02-10|22:26:55.640] Disk storage enabled for ethash DAGs     dir=/root/.ethash                     count=2
+INFO [02-10|22:26:55.640] Initialising Ethereum protocol           versions="[64 63]" network=613 dbversion=7
+INFO [02-10|22:26:55.641] Loaded most recent local header          number=0 hash=1046ef…01d4fa td=2 age=2mo2w5h
+INFO [02-10|22:26:55.641] Loaded most recent local full block      number=0 hash=1046ef…01d4fa td=2 age=2mo2w5h
+INFO [02-10|22:26:55.641] Loaded most recent local fast block      number=0 hash=1046ef…01d4fa td=2 age=2mo2w5h
+INFO [02-10|22:26:55.641] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-10|22:26:55.641] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-10|22:26:55.645] Allocated fast sync bloom                size=164.00MiB
+INFO [02-10|22:26:55.646] Initialized fast sync bloom              items=1 errorrate=0.000 elapsed=66.545µs
+INFO [02-10|22:26:55.680] New local node record                    seq=1 id=64e2afeaba3abe42 ip=127.0.0.1 udp=30928 tcp=30928
+INFO [02-10|22:26:55.682] Blockchain manager stopped 
+INFO [02-10|22:26:55.682] Stopping Ethereum protocol 
+INFO [02-10|22:26:55.684] Started P2P networking                   self=enode://7b453d6ac07689e1466d36d4eee81f6110a51da7a6b68ec4cde623ee92e7c6a7f9839f4c1a44aeda62fa57064d3cf27df8a2892059ae2dd4849acf88f44fe167@127.0.0.1:30928
+INFO [02-10|22:26:55.685] Ethereum protocol stopped 
+INFO [02-10|22:26:55.685] Transaction pool stopped 
+Fatal: Error starting protocol stack: listen tcp 127.0.0.1:8545: bind: address already in use
+nohup: appending output to ‘nohup.out’
+invalid value "--identity" for flag -port: parse error
+nohup: appending output to ‘nohup.out’
+invalid value "--identity" for flag -port: parse error
+nohup: appending output to ‘nohup.out’
+WARN [02-10|22:43:01.845] Sanitizing cache to Go's GC limits       provided=1024 updated=330
+INFO [02-10|22:43:01.847] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-10|22:43:01.847] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-10|22:43:01.848] Starting peer-to-peer node               instance=Geth/test1/v1.9.9-stable-01744997/linux-amd64/go1.13.5
+INFO [02-10|22:43:01.848] Allocated trie memory caches             clean=82.00MiB dirty=82.00MiB
+INFO [02-10|22:43:01.848] Allocated cache and file handles         database=/eth/test1/data/test1/geth/chaindata cache=165.00MiB handles=50001
+INFO [02-10|22:43:01.861] Opened ancient database                  database=/eth/test1/data/test1/geth/chaindata/ancient
+INFO [02-10|22:43:01.861] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Engine: ethash}"
+INFO [02-10|22:43:01.861] Disk storage enabled for ethash caches   dir=/eth/test1/data/test1/geth/ethash count=3
+INFO [02-10|22:43:01.861] Disk storage enabled for ethash DAGs     dir=/root/.ethash                     count=2
+INFO [02-10|22:43:01.861] Initialising Ethereum protocol           versions="[64 63]" network=613 dbversion=7
+INFO [02-10|22:43:01.862] Loaded most recent local header          number=0 hash=1046ef…01d4fa td=2 age=2mo2w5h
+INFO [02-10|22:43:01.862] Loaded most recent local full block      number=0 hash=1046ef…01d4fa td=2 age=2mo2w5h
+INFO [02-10|22:43:01.862] Loaded most recent local fast block      number=0 hash=1046ef…01d4fa td=2 age=2mo2w5h
+INFO [02-10|22:43:01.862] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-10|22:43:01.862] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-10|22:43:01.866] Allocated fast sync bloom                size=164.00MiB
+INFO [02-10|22:43:01.868] Initialized fast sync bloom              items=1 errorrate=0.000 elapsed=85.401µs
+INFO [02-10|22:43:01.882] New local node record                    seq=2 id=64e2afeaba3abe42 ip=127.0.0.1 udp=31267 tcp=31267
+INFO [02-10|22:43:01.884] HTTP endpoint opened                     url=http://127.0.0.1:9853 cors=* vhosts=localhost
+INFO [02-10|22:43:01.886] Started P2P networking                   self=enode://7b453d6ac07689e1466d36d4eee81f6110a51da7a6b68ec4cde623ee92e7c6a7f9839f4c1a44aeda62fa57064d3cf27df8a2892059ae2dd4849acf88f44fe167@127.0.0.1:31267
+INFO [02-10|22:43:09.690] New local node record                    seq=3 id=64e2afeaba3abe42 ip=119.29.168.212 udp=31267 tcp=31267
