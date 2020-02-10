@@ -56,3 +56,4 @@ WARN [02-10|22:48:13.895] Sanitizing cache to Go's GC limits       provided=1024
 INFO [02-10|22:48:13.897] Maximum peer count                       ETH=50 LES=0 total=50
 INFO [02-10|22:48:13.897] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
 Fatal: Error starting protocol stack: datadir already used by another process
+INFO [02-10|22:58:14.792] Regenerated local transaction journal    transactions=0 accounts=0
